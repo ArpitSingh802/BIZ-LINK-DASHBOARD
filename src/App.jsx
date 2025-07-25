@@ -37,7 +37,7 @@ function App() {
         <Header />
         <StatsPanel />
 
-        {/* Yahi code use hoga */}
+        
         <div className="row p-3">
           {Object.entries(stages).map(([stage, customers], i) => (
             <StageColumn key={i} stage={stage} count={customers.length} customers={customers} />
